@@ -15,10 +15,10 @@
 </head>
 
 <body>
-  <div class="container d-flex flex-column gap-1">
+  <div class="container p-0 gap-1" id="gridbox">
     <header>
       <h1>Men's Clothes</h1>
-      <div class="navbar bg-dark p-3">
+      <div class="navbar bg-dark">
         <a class="active" href="#"><i class="nawi fa fa-fw fa-home"></i>
           <font color="white">Home</font>
         </a>
@@ -33,10 +33,10 @@
         </a>
       </div>
     </header>
+    <!-- /*main*/ -->
     <main>
-      <nav class="navbar navbar-expand-lg text-light bg-dark">
-        <div class="container-fluid">
-
+      <nav class="navbar text-light bg-dark p-0 m-0">
+        <div class="container-fluid ">
           <a class="navbar-brand" href="#">Tops</a>
           <a class="navbar-brand" href="#">Sweaters</a>
           <a class="navbar-brand" href="#">Jeans</a>
@@ -47,11 +47,11 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-
         </div>
       </nav>
+      <!-- /*nav*/ -->
       <div><img src="./assets/img/means.jpg" alt=""></div>
-      <div class="grid mt-4">
+      <div class="m-0 p-0" id="grid">
         <div class="card">
           <img src="./assets/img/bags.jpeg" class="card-img" alt="...">
           <div class="card-img-overlay one">
@@ -74,14 +74,14 @@
           </div>
         </div>
       </div>
-      <div class="grid2 mt-5">
+      <div class="mt-5" id="grid2">
         <div class="card">
           <img src="./assets/img/cap.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-text">Cap</h5>
             <p class="card-text">Some content.</p>
             <p>$122.50 <span class="text-danger"> $166.70</span></p>
-            <a href="#" class="btn btn-outline-danger">Add to cart</a>
+            <a href="#" class="btn btn-outline-dark">Add to cart</a>
           </div>
         </div>
         <div class="card">
@@ -90,7 +90,7 @@
             <h5 class="card-text">Sunglasses</h5>
             <p class="card-text">Some content.</p>
             <p>$122.50 <span class="text-danger"> $166.70</span></p>
-            <a href="#" class="btn btn-outline-danger">Add to cart</a>
+            <a href="#" class="btn btn-outline-dark">Add to cart</a>
           </div>
         </div>
         <div class="card">
@@ -99,7 +99,7 @@
             <h5 class="card-text">Nike</h5>
             <p class="card-text">Some content.</p>
             <p>$122.50 <span class="text-danger"> $166.70</span></p>
-            <a href="#" class="btn btn-outline-danger">Add to cart</a>
+            <a href="#" class="btn btn-outline-dark">Add to cart</a>
           </div>
         </div>
         <div class="card">
@@ -108,7 +108,7 @@
             <h5 class="card-text">Pants</h5>
             <p class="card-text">Some content.</p>
             <p>$122.50 <span class="text-danger"> $166.70</span></p>
-            <a href="#" class="btn btn-outline-danger">Add to cart</a>
+            <a href="#" class="btn btn-outline-dark">Add to cart</a>
           </div>
         </div>
         <div class="card">
@@ -117,7 +117,7 @@
             <h5 class="card-text">Polo</h5>
             <p class="card-text">Some content.</p>
             <p>$122.50 <span class="text-danger"> $166.70</span></p>
-            <a href="#" class="btn btn-outline-danger">Add to cart</a>
+            <a href="#" class="btn btn-outline-dark">Add to cart</a>
           </div>
         </div>
         <div class="card">
@@ -126,7 +126,7 @@
             <h5 class="card-text">shirts</h5>
             <p class="card-text">Some content.</p>
             <p>$122.50 <span class="text-danger"> $166.70</span></p>
-            <a href="#" class="btn btn-outline-danger">Add to cart</a>
+            <a href="#" class="btn btn-outline-dark">Add to cart</a>
           </div>
         </div>
         <div class="card">
@@ -135,7 +135,7 @@
             <h5 class="card-text">Watch</h5>
             <p class="card-text">Some content.</p>
             <p>$122.50 <span class="text-danger"> $166.70</span></p>
-            <a href="#" class="btn btn-outline-danger">Add to cart</a>
+            <a href="#" class="btn btn-outline-dark">Add to cart</a>
           </div>
         </div>
         <div class="card">
@@ -144,7 +144,7 @@
             <h5 class="card-text">Watch</h5>
             <p class="card-text">Some content.</p>
             <p>$122.50 <span class="text-danger"> $166.70</span></p>
-            <a href="#" class="btn btn-outline-danger">Add to cart</a>
+            <a href="#" class="btn btn-outline-dark">Add to cart</a>
           </div>
         </div>
       </div>
@@ -156,18 +156,18 @@
     <footer class="d-flex justify-content-around Shiping">
       <h1 class="text-light">Free Shiping</h1>
       <div>
-        <H1>CALL US:800 23455667</H1>
+        <H1><a href="">CALL US:800 23455667</a> </H1>
         <H2 class="text-secondary">HOURS: 09AP-7PM PST M-FRI</H2>
       </div>
       <H1 class="text-light">FAST DELIVERY</H1>
     </footer>
     <div class="row">
 
-      <div class="col-md-4">
+      <div class="col">
         <h4>Made By Artem</h4>
 
       </div>
-      <div class="col-md-4">
+      <div class="col">
         <ul>
           <li>Customer Service</li>
           <li>Contact US</li>
@@ -176,11 +176,9 @@
         </ul>
 
       </div>
-      <div class="col-md-4">
+      <div class="col">
         <ul>
-          <li>
-            My Account
-          </li>
+          <li> My Account</li>
           <li>Order History</li>
           <li>Wish List</li>
           <li>Newsletter</li>
